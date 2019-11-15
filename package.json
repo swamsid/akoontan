@@ -20,7 +20,12 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "inputmask": "^4.0.8",
         "jquery": "^2.1.1",
-        "metismenu": "^2.0.2"
+        "metismenu": "^2.0.2",
+        "select2": "^4.0.8",
+        "select2-bootstrap-theme": "0.1.0-beta.10",
+        "vue": "^2.6.10",
+        "vuelidate": "^0.7.4"
     }
 }

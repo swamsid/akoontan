@@ -20,5 +20,15 @@ Route::get('login', function () {
 })->name('login');
 
 Route::get('dashboard', function () {
-    return view('project/main');
+    return view('project/dashboard');
 })->name('dashboard');
+
+    // data -> manajemen coa
+        Route::get('data/manajemen-coa', function () {
+            return view('project/data/coa/index');
+        })->name('data.coa');
+
+        Route::get('data/manajemen-coa/tambah', function () {
+            return view('project/data/coa/form');
+        })->name('data.coa.create');
+    // end

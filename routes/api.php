@@ -13,6 +13,10 @@ use Illuminate\Http\Request;
 |
 */
 
+Route::get('data/manajemen-coa/resource', [
+    'uses'  => 'Project\api\data\coa\coa_controller@resource'
+])->name('api.data.coa.resource');
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
