@@ -7,10 +7,10 @@ window._ = require('lodash');
  */
 
 window.$ = window.jQuery = require('jquery');
-require('./project/js/bootstrap.min.js');
 require('metismenu');
-require('./project/js/plugins/slimscroll/jquery.slimscroll.min.js');
-require('./project/js/inspinia.js');
+require('./js/bootstrap.min.js');
+require('./js/inspinia.js');
+require('./js/plugins/slimscroll/jquery.slimscroll.min.js');
 
 window.axios = require('axios');
 

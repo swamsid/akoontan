@@ -28722,13 +28722,13 @@ window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 
 window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-__webpack_require__(/*! ./project/js/bootstrap.min.js */ "./resources/js/project/js/bootstrap.min.js");
-
 __webpack_require__(/*! metismenu */ "./node_modules/metismenu/dist/metisMenu.js");
 
-__webpack_require__(/*! ./project/js/plugins/slimscroll/jquery.slimscroll.min.js */ "./resources/js/project/js/plugins/slimscroll/jquery.slimscroll.min.js");
+__webpack_require__(/*! ./js/bootstrap.min.js */ "./resources/js/js/bootstrap.min.js");
 
-__webpack_require__(/*! ./project/js/inspinia.js */ "./resources/js/project/js/inspinia.js");
+__webpack_require__(/*! ./js/inspinia.js */ "./resources/js/js/inspinia.js");
+
+__webpack_require__(/*! ./js/plugins/slimscroll/jquery.slimscroll.min.js */ "./resources/js/js/plugins/slimscroll/jquery.slimscroll.min.js");
 
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
@@ -28748,10 +28748,10 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
-/***/ "./resources/js/project/js/bootstrap.min.js":
-/*!**************************************************!*\
-  !*** ./resources/js/project/js/bootstrap.min.js ***!
-  \**************************************************/
+/***/ "./resources/js/js/bootstrap.min.js":
+/*!******************************************!*\
+  !*** ./resources/js/js/bootstrap.min.js ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -29788,10 +29788,10 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
 
 /***/ }),
 
-/***/ "./resources/js/project/js/inspinia.js":
-/*!*********************************************!*\
-  !*** ./resources/js/project/js/inspinia.js ***!
-  \*********************************************/
+/***/ "./resources/js/js/inspinia.js":
+/*!*************************************!*\
+  !*** ./resources/js/js/inspinia.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -30056,10 +30056,10 @@ function WinMove() {
 
 /***/ }),
 
-/***/ "./resources/js/project/js/plugins/slimscroll/jquery.slimscroll.min.js":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/project/js/plugins/slimscroll/jquery.slimscroll.min.js ***!
-  \*****************************************************************************/
+/***/ "./resources/js/js/plugins/slimscroll/jquery.slimscroll.min.js":
+/*!*********************************************************************!*\
+  !*** ./resources/js/js/plugins/slimscroll/jquery.slimscroll.min.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
