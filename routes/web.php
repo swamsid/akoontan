@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('riset', function () {
-    return view('riset');
-});
+Route::get('login', function () {
+    return view('project/autentikasi/login');
+})->name('login');
+
+Route::get('dashboard', function () {
+    return view('project/main');
+})->name('dashboard');

@@ -1,0 +1,34 @@
+.btn-dark {
+    background-color: #2f4050;
+    border-color: #2f4050;
+    color: #FFFFFF;
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark,
+.btn-dark:active:focus,
+.btn-dark:active:hover,
+.btn-dark.active:hover,
+.btn-dark.active:focus {
+    background-color: #233645;
+    border-color: #233645;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    color: #b2bec3 !important;
+    opacity: 1;
+}
+
+.form-group label {
+    color: #636e72;
+}
+
+.form-group input {
+    height: 35px;
+    font-size: 10pt;
+    border-radius: 5px;
+}
